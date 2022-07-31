@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header__title {
+color: red;
+}
+
+.orderlist__container {
+  padding: 25px;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 236, 236);
+  width: 50%
+}
+
+.order-item {
+  text-align: center;
+  background-color: bisque;
+  border: 8px black solid;
+  border-bottom: none;
+}
+
+main {
+  display: flex;
+}
+
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(213, 81, 11);
+  height: 100vh;
+  width: 100%;
+  h1 {
+  font-size: 80px;
+  }
+  &__login__container{
+  &__form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    label{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    input{
+      box-sizing: border-box;
+      padding: 10px;
+      height: 30px;
+      width: 250px;
+      border-radius: 25px;
+      border: 2px solid black;
+    }
+  }
+  }
+  &__links {
+    margin-top: 100px;
+    &__link{
+      font-size: 40px;
+      font-weight: bold;
+    }
+    &__link:hover{
+     color:white
+    }
+  }
+
+  .button__login{
+     margin-top: 10px;
+     font-size: 20px;
+  }
+  .button__login:hover{
+    // font-size: 24px;
+    color: white;
+  }
+  .button__signup{
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .button__signup:hover{
+    // font-size: 18px;
+    color: white;
+  }
+  }

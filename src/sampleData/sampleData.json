@@ -1,0 +1,15 @@
+{
+    "id": 1,
+    "orderNumber": 1,
+    "dateCreated": "2022-28-07 15:23:37",
+    "creatorOfOrderId": 6,
+    "unitId": 1, 
+    "addressOfUnit": "1800 Magic Street, New Orleans, LA -- 70012",
+    "orderTitle": "Dryer not working",
+    "orderDetails": "When the dryer is turned on it is not spinning",
+    "orderType": "Applicance issue",
+    "orderStatus": "opened",
+    "orderStatusId": 1,
+    "orderTypeId": 1,
+    "maintenanceAssignedToIds": [2]
+}
